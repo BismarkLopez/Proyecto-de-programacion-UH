@@ -1,0 +1,4 @@
+Propuesta de preguntas / respuestas para el quiz
+estaba pensando en agregar al menos unas 15 preguntas, para variar un poco las propuestas, pero también si el usuario
+debe elegir cuantas preguntas desea trabajar, creo que no es tan necesario.
+sobre qué tema deberíamos hacer las preguntas??
