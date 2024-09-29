@@ -11,3 +11,5 @@ while True:
 
 # listado de preguntas para el quiz
 # agregar las preguntas que están en el archivo questions.txt; ahí mismo están las respuestas y justificación
+for i in range(1, quizLength + 1):
+    print('Pregunta #' + str(i))
