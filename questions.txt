@@ -2,3 +2,110 @@ Propuesta de preguntas / respuestas para el quiz
 estaba pensando en agregar al menos unas 15 preguntas, para variar un poco las propuestas, pero también si el usuario
 debe elegir cuantas preguntas desea trabajar, creo que no es tan necesario.
 sobre qué tema deberíamos hacer las preguntas??
+
+PREGUNTAS PROPUESTAS
+
+Pregunta #1
+¿Qué palabra clave se usa para definir una función en Python?
+a: def (correcta) = justificación: La palabra clave def se usa para definir funciones en Python.
+b: function
+c: define
+d: func
+
+Pregunta #2
+¿Cuál de los siguientes tipos de datos es inmutable en Python?
+a: tuple (correcta) = justificación: Las tuplas son inmutables, lo que significa que no se pueden cambiar después de ser creadas.
+b: list
+c: set
+d: dictionary
+
+Pregunta #3
+¿Qué hace la función len() en Python?
+a: Devuelve la longitud de una secuencia (correcta) = justificación: len() devuelve la cantidad de elementos en una secuencia como lista o cadena.
+b: Convierte un número en una cadena
+c: Devuelve el último elemento de una lista
+d: Devuelve el tipo de dato de una variable
+
+Pregunta #4
+¿Cuál es el operador de igualdad en Python?
+a: == (correcta) = justificación: Se usa para comparar si dos valores son iguales.
+b: =
+c: !=
+d: >
+
+Pregunta #5
+¿Qué devuelve la expresión 5 // 2 en Python?
+a: 2 (correcta) = justificación: // es el operador de división entera, que devuelve solo la parte entera del cociente.
+b: 2.5
+c: 3
+d: 0
+
+Pregunta #6
+
+a:
+b:
+c:
+d:
+
+Pregunta #7
+
+a:
+b:
+c:
+d:
+
+Pregunta #8
+
+a:
+b:
+c:
+d:
+
+Pregunta #9
+
+a:
+b:
+c:
+d:
+
+Pregunta #10
+
+a:
+b:
+c:
+d:
+
+Pregunta #11
+
+a:
+b:
+c:
+d:
+
+Pregunta #12
+
+a:
+b:
+c:
+d:
+
+Pregunta #13
+
+a:
+b:
+c:
+d:
+
+Pregunta #14
+
+a:
+b:
+c:
+d:
+
+Pregunta #15
+
+a:
+b:
+c:
+d:
