@@ -41,71 +41,71 @@ c: 3
 d: 0
 
 Pregunta #6
-
-a:
-b:
-c:
-d:
+¿Cómo se comenta una sola línea en Python?
+a: # Comentario (correcta) = justificación: Los comentarios de una sola línea en Python comienzan con #.
+b: // Comentario
+c: /* Comentario */
+d: <!- Comentario -->
 
 Pregunta #7
-
-a:
-b:
-c:
-d:
+¿Qué estructura se utiliza para repetir un bloque de código un número específico de veces en Python?
+a: for (correcta) = justificación: for se usa para iterar sobre secuencia o repetir un bloque de código un número específico de veces.
+b: while
+c: repeat
+d: loop
 
 Pregunta #8
-
-a:
-b:
-c:
-d:
+¿Cuál de los siguientes no es un tipo de dato primitivo en Python?
+a: object (correcta) = justificación: object no es un tipo de dato primitivo; es la clase base de todos los objetos en Python.
+b: int
+c: str
+d: float
 
 Pregunta #9
-
-a:
-b:
-c:
-d:
+¿Qué función convierte una cadena en un entero en Python?
+a: int()(correcta) = justificación: int() convierte una cadena que representa un número entero en un entero
+b: float()
+c: str()
+d: convert()
 
 Pregunta #10
-
-a:
-b:
-c:
-d:
+¿Qué palabra clave se usa para crear una clase en Python?
+a: class (correcta) = justificación: La palabra clave class se utiliza para definir clases en Python.
+b: create
+c: function
+d: new
 
 Pregunta #11
-
-a:
-b:
-c:
-d:
+¿Qué estructura se usa para manejar excepciones en Python?
+a: try-except (correcta) = justificación: try-except se usa para manejar errores y excepcionesen Python
+b: if-else
+c: switch-case
+d: catch-finally
 
 Pregunta #12
-
-a:
-b:
-c:
-d:
+¿Qué devuelve type(42) en Python?
+a: <class 'int'> (correcta) = justificación: type(42) devuelve <class 'int'> porque 42 es un entero.
+b: int
+c: integer
+d: number
 
 Pregunta #13
-
-a:
-b:
-c:
-d:
+¿Qué método se usa para agregar un elemento al final de una lista en Python?
+a: append()(correcta) = justificación: append() agrega un elemento al final de una lista
+b: add()
+c: insert()
+d: push()
 
 Pregunta #14
-
-a:
-b:
-c:
-d:
+¿Cuál de las siguientes es una biblioteca popular para el manejo de datos en Python?
+a: pandas(correcta) = justificación: pandas es una biblioteca utilizada para el análisis y manipulación de datos
+b: numpy
+c: scikit-learn
+d: matplotlib
 
 Pregunta #15
-
-a:
-b:
-c:
-d:
+¿Cuál es la función principal de la declaración import en Python?
+a: Incluir módulos externos en el código (correcta) = justificación: import se usa para incluir módulos externos o bibliotecas en el código Python
+b: Crear una nueva variable
+c: Definir una función
+d: Asignar valores a una variable
