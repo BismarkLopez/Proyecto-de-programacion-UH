@@ -8,3 +8,5 @@ while True:
     quizLength = int(input('El quiz no debe superar las 15 preguntas, reintente: '))
     if quizLength <= 15:
         break
+
+#listado de preguntas para el quiz
