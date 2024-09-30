@@ -3,11 +3,10 @@ print('¡Bienvenido(a) a Quizmania!')
 userName = input('¿Cuál es su nombre?\n')
 quizLength = int(input(userName + ' ¿Cuántas preguntas responderá?\n')) #agregar una función que permita convertir la primera letra en mayuscula
 
-# condición que valida que quizLength no supere las 15 preguntas
-while True:
-    quizLength = int(input('El quiz no debe superar las 15 preguntas, reintente: '))
-    if quizLength <= 15:
-        break
+# valida que el quiz no supere las 15 preguntas
+while quizLength > 15:
+    quizLength = int(input('¡El quiz no debe exceder las 15 preguntas, reintente!: '))
+
 
 # listado de preguntas para el quiz
 for i in range(1, quizLength + 1):
