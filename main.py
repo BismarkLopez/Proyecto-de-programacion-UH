@@ -1,7 +1,7 @@
 # GUI del usuario
 print('¡Bienvenido(a) a Quizmania!')
 userName = input('¿Cuál es su nombre?\n')
-quizLength = int(input(userName + ' ¿Cuántas preguntas responderá?\n')) #agregar una función que permita convertir la primera letra en mayuscula
+quizLength = int(input(userName + ' ¿Cuántas preguntas responderá?\n'))
 
 # valida que el quiz no supere las 15 preguntas
 while quizLength > 15:
@@ -11,4 +11,4 @@ while quizLength > 15:
 # listado de preguntas para el quiz
 for i in range(1, quizLength + 1):
     print('Pregunta #' + str(i))
-    # agregar las preguntas que están en el archivo questions.txt; ahí mismo están las respuestas y justificación
+    # TODO agregar las preguntas que están en el archivo questions.txt; ahí mismo están las respuestas y justificación
