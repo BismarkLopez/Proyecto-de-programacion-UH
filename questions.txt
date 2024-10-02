@@ -14,10 +14,10 @@ d: func
 
 Pregunta #2
 ¿Cuál de los siguientes tipos de datos es inmutable en Python?
-a: tuple (correcta) = justificación: Las tuplas son inmutables, lo que significa que no se pueden cambiar después de ser creadas.
+a: dictionary
 b: list
 c: set
-d: dictionary
+d: tuple (correcta) = justificación: Las tuplas son inmutables, lo que significa que no se pueden cambiar después de ser creadas.
 
 Pregunta #3
 ¿Qué hace la función len() en Python?
