@@ -17,23 +17,23 @@ while quizLength < 1 or quizLength > 15:
 questionList = [
     '¿Qué palabra clave se usa para definir una función en Python?\n a: def \n b: function \n c: define \n d: func',
     '¿Cuál de los siguientes tipos de datos es inmutable en Python?\n a: dictionary \n b: list \n c: set \n d: tuple',
-    '¿Qué hace la función len() en Python?\n a:\n b:\n c:\n d:',
-    '¿Cuál es el operador de igualdad en Python?\n a:\n b:\n c:\n d:',
-    '¿Qué devuelve la expresión 5 // 2 en Python?\n a:\n b:\n c:\n d:',
-    '¿Cómo se comenta una sola línea en Python?\n a:\n b:\n c:\n d:',
-    '¿Qué estructura se utiliza para repetir un bloque de código un número específico de veces en Python?\n a:\n b:\n c:\n d:',
-    '¿Cuál de los siguientes no es un tipo de dato primitivo en Python?\n a:\n b:\n c:\n d:',
-    '¿Qué función convierte una cadena en un entero en Python?\n a:\n b:\n c:\n d:',
-    '¿Qué palabra clave se usa para crear una clase en Python?\n a:\n b:\n c:\n d:',
-    '¿Qué estructura se usa para manejar excepciones en Python?\n a:\n b:\n c:\n d:',
-    '¿Qué devuelve type(42) en Python?\n a:\n b:\n c:\n d:',
-    '¿Qué método se usa para agregar un elemento al final de una lista en Python?\n a:\n b:\n c:\n d:',
-    '¿Cuál de las siguientes es una biblioteca popular para el manejo de datos en Python?\n a:\n b:\n c:\n d:',
-    '¿Cuál es la función principal de la declaración import en Python?\n a:\n b:\n c:\n d:'
+    '¿Qué hace la función len() en Python?\n a: Convierte un número en cadena \n b: Devuelve la longitud de una cadena \n c: Devuelve el último elemento de una lista \n d: Devuelve el tipo de dato de una variable',
+    '¿Cuál es el operador de igualdad en Python?\n a: != \n b: = \n c: == \n d: >',
+    '¿Qué devuelve la expresión 5 // 2 en Python?\n a: 0 \n b: 2.5 \n c: 3 \n d: 2',
+    '¿Cómo se comenta una sola línea en Python?\n a: # Comentario \n b: // Comentario \n c: /* Comentario */ \n d: <!- Comentario -->',
+    '¿Qué estructura se utiliza para repetir un bloque de código un número específico de veces en Python?\n a: for \n b: while \n c: repeat \n d: loop',
+    '¿Cuál de los siguientes no es un tipo de dato primitivo en Python?\n a: str \n b: int \n c: object \n d: float',
+    '¿Qué función convierte una cadena en un entero en Python?\n a: float() \n b: int() \n c: str() \n d: convert() ',
+    '¿Qué palabra clave se usa para crear una clase en Python?\n a: new \n b: create \n c: function \n d: class',
+    '¿Qué estructura se usa para manejar excepciones en Python?\n a: switch-case \n b: if-else \n c: try-except \n d: catch-finally',
+    '¿Qué devuelve type(42) en Python?\n a: integer \n b: int \n c: <class "int">\n d: number',
+    '¿Qué método se usa para agregar un elemento al final de una lista en Python?\n a: add() \n b: append() \n c: insert() \n d: push()',
+    '¿Cuál de las siguientes es una biblioteca popular para el manejo de datos en Python?\n a: matplotlib \n b: numpy \n c: scikit-learn \n d: pandas',
+    '¿Cuál es la función principal de la declaración import en Python?\n a: Asignar valores a una variable \n b: Crear una nueva variable \n c: Definir una función \n d: Incluir módulos externos en el código'
 ]
 
 # listado de respuestas correctas
-correctAnswers = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
+correctAnswers = ['a', 'd', 'b', 'c', 'd', 'a', 'a', 'c', 'b', 'd', 'c', 'c', 'b', 'd', 'd']
 
 # listado de justificaciones
 justifications = [
