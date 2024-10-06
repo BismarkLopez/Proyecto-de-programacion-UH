@@ -33,25 +33,25 @@ questionList = [
 ]
 
 # listado de respuestas correctas
-correctAnswers = ['a', 'd', '', '', '', '', '', '', '', '', '', '', '', '', '']
+correctAnswers = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '']
 
 # listado de justificaciones
 justifications = [
-    'La palabra clave "def" se usa para definir funciones en Python.',
-    'Las tuplas son inmutables, lo que significa que no se pueden cambiar después de ser creadas.',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    '',
-    ''
+    'Justificación: La palabra clave "def" se usa para definir funciones en Python.',
+    'Justificación: Los datos de tipo "tuple" son inmutables, significa que no cambian luego de ser creados.',
+    'Justificación: La función "len()" devuelve la cantidad de elementos en una secuencia.',
+    'Justificación: El operador "==" se usa para comparar si dos valores son iguales.',
+    'Justificación: El operador "//" se usa para devolver la parte entera del cociente.',
+    'Justificación: En Python los cometarios de una línea empiezan con "#".',
+    'Justificación: La estructura "for()" se usa para iterar una secuencia un número dado de veces.',
+    'Justificación: El tipo de dato "object" no es primitivo en Python.',
+    'Justificación: La función "int()" se usa para convertir valores a entero.',
+    'Justificación: La palabra clave "class" se utiliza para definir clases en Python.',
+    'Justificación: La estructura "try-except" se utiliza para manejar errores y excepciones.',
+    'Justificación: La expresión "type(42)" devuelve <class "int"> porque 42 es un entero.',
+    'Justificación: El método "append()" agrega un elemento al final de una lista.',
+    'Justificación: Pandas es una biblioteca utilizada para analizar y manipular datos.',
+    'Justificación: La función "import" se usa para modulos o bibliotecas externas en el código de Python.'
 ]
 
 # aquí se genera la interfaz del quiz

@@ -21,24 +21,24 @@ d: tuple (correcta) = justificación: Las tuplas son inmutables, lo que signific
 
 Pregunta #3
 ¿Qué hace la función len() en Python?
-a: Devuelve la longitud de una secuencia (correcta) = justificación: len() devuelve la cantidad de elementos en una secuencia como lista o cadena.
-b: Convierte un número en una cadena
+b: Devuelve la longitud de una secuencia (correcta) = justificación: len() devuelve la cantidad de elementos en una secuencia como lista o cadena.
+a: Convierte un número en una cadena
 c: Devuelve el último elemento de una lista
 d: Devuelve el tipo de dato de una variable
 
 Pregunta #4
 ¿Cuál es el operador de igualdad en Python?
-a: == (correcta) = justificación: Se usa para comparar si dos valores son iguales.
+c: == (correcta) = justificación: Se usa para comparar si dos valores son iguales.
 b: =
-c: !=
+a: !=
 d: >
 
 Pregunta #5
 ¿Qué devuelve la expresión 5 // 2 en Python?
-a: 2 (correcta) = justificación: // es el operador de división entera, que devuelve solo la parte entera del cociente.
+d: 2 (correcta) = justificación: // es el operador de división entera, que devuelve solo la parte entera del cociente.
 b: 2.5
 c: 3
-d: 0
+a: 0
 
 Pregunta #6
 ¿Cómo se comenta una sola línea en Python?
@@ -56,56 +56,56 @@ d: loop
 
 Pregunta #8
 ¿Cuál de los siguientes no es un tipo de dato primitivo en Python?
-a: object (correcta) = justificación: object no es un tipo de dato primitivo; es la clase base de todos los objetos en Python.
+c: object (correcta) = justificación: object no es un tipo de dato primitivo; es la clase base de todos los objetos en Python.
 b: int
-c: str
+a: str
 d: float
 
 Pregunta #9
 ¿Qué función convierte una cadena en un entero en Python?
-a: int()(correcta) = justificación: int() convierte una cadena que representa un número entero en un entero
-b: float()
+b: int()(correcta) = justificación: int() convierte una cadena que representa un número entero en un entero
+a: float()
 c: str()
 d: convert()
 
 Pregunta #10
 ¿Qué palabra clave se usa para crear una clase en Python?
-a: class (correcta) = justificación: La palabra clave class se utiliza para definir clases en Python.
+d: class (correcta) = justificación: La palabra clave class se utiliza para definir clases en Python.
 b: create
 c: function
-d: new
+a: new
 
 Pregunta #11
 ¿Qué estructura se usa para manejar excepciones en Python?
-a: try-except (correcta) = justificación: try-except se usa para manejar errores y excepcionesen Python
+c: try-except (correcta) = justificación: try-except se usa para manejar errores y excepcionesen Python
 b: if-else
-c: switch-case
+a: switch-case
 d: catch-finally
 
 Pregunta #12
 ¿Qué devuelve type(42) en Python?
-a: <class 'int'> (correcta) = justificación: type(42) devuelve <class 'int'> porque 42 es un entero.
+c: <class 'int'> (correcta) = justificación: type(42) devuelve <class 'int'> porque 42 es un entero.
 b: int
-c: integer
+a: integer
 d: number
 
 Pregunta #13
 ¿Qué método se usa para agregar un elemento al final de una lista en Python?
-a: append()(correcta) = justificación: append() agrega un elemento al final de una lista
-b: add()
+b: append()(correcta) = justificación: append() agrega un elemento al final de una lista
+a: add()
 c: insert()
 d: push()
 
 Pregunta #14
 ¿Cuál de las siguientes es una biblioteca popular para el manejo de datos en Python?
-a: pandas(correcta) = justificación: pandas es una biblioteca utilizada para el análisis y manipulación de datos
+d: pandas(correcta) = justificación: pandas es una biblioteca utilizada para el análisis y manipulación de datos
 b: numpy
 c: scikit-learn
-d: matplotlib
+a: matplotlib
 
 Pregunta #15
 ¿Cuál es la función principal de la declaración import en Python?
-a: Incluir módulos externos en el código (correcta) = justificación: import se usa para incluir módulos externos o bibliotecas en el código Python
+d: Incluir módulos externos en el código (correcta) = justificación: import se usa para incluir módulos externos o bibliotecas en el código Python
 b: Crear una nueva variable
 c: Definir una función
-d: Asignar valores a una variable
+a: Asignar valores a una variable
