@@ -3,7 +3,7 @@ Fecha de entrega: 04.09.24
 
 Requisitos del proyecto
 1: Tener al menos 10 preguntas con las respuestas y la retroalimentación de cada una de las respuestas.
-2:Indicar el progreso del usuario que está realizando el quiz.
+2: Indicar el progreso del usuario que está realizando el quiz.
 3: Permitir ver todas las respuestas dadas al final del quiz.
 
 GUI del usuario

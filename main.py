@@ -7,11 +7,10 @@ userName = input('¿Cuál es su nombre?: ')
 nameCapitalized = userName.capitalize()
 quizLength = int(input(f'¡Hola! {nameCapitalized} ¿cuántas preguntas responderá?: '))
 # TODO aprender a usar el f-string para dar formatos a concatenaciones
-#quizLength = int(input('¡Hola! ' + nameCapitalized + ' ¿Cuántas preguntas responderá?: '))
 
-# valida que el quiz esté en rango de 1 y 15 preguntas
-while quizLength < 1 or quizLength > 15:
-    quizLength = int(input('¡El quiz debe tener entre 1 y 15 preguntas, reintente!: '))
+# valida que el quiz esté en rango de 5 y 15 preguntas
+while quizLength < 5 or quizLength > 15:
+    quizLength = int(input('¡El quiz debe tener entre 5 y 15 preguntas, reintente!: '))
 
 # listado de preguntas para el quiz
 questionList = [
@@ -62,3 +61,7 @@ for i in range(quizLength):
     answer = ''
     answer = input('Respuesta: ')
     print('')
+ 
+ # verificar si las respuestas son correctas
+ # mostrar el progreso en %
+ # mostrar la jutificación en caso de respuesta errónea
