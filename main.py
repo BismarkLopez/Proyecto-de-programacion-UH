@@ -2,17 +2,19 @@
 userName = ''
 quizLength = 0
 nameCapitalized = ''
+
 print('¡Bienvenido(a) a Quizmania!\n')
+
 userName = input('¿Cuál es su nombre?: ')
 nameCapitalized = userName.capitalize()
-quizLength = int(input(f'¡Hola! {nameCapitalized} ¿cuántas preguntas responderá?: '))
-# TODO aprender a usar el f-string para dar formatos a concatenaciones
 
-# valida que el quiz esté en rango de 5 y 15 preguntas
+quizLength = int(input(f'¡Hola! {nameCapitalized}! ¿Cuántas preguntas responderá?: '))
+
+# Valida que el quiz esté en rango de 5 y 15 preguntas
 while quizLength < 5 or quizLength > 15:
     quizLength = int(input('¡El quiz debe tener entre 5 y 15 preguntas, reintente!: '))
 
-# listado de preguntas para el quiz
+# Listado de preguntas para el quiz
 questionList = [
     '¿Qué palabra clave se usa para definir una función en Python?\n a: def \n b: function \n c: define \n d: func',
     '¿Cuál de los siguientes tipos de datos es inmutable en Python?\n a: dictionary \n b: list \n c: set \n d: tuple',
@@ -31,17 +33,21 @@ questionList = [
     '¿Cuál es la función principal de la declaración import en Python?\n a: Asignar valores a una variable \n b: Crear una nueva variable \n c: Definir una función \n d: Incluir módulos externos en el código'
 ]
 
-# listado de respuestas correctas
-correctAnswers = ['a', 'd', 'b', 'c', 'd', 'a', 'a', 'c', 'b', 'd', 'c', 'c', 'b', 'd', 'd']
+# Listado de respuestas correctas
+correctAnswers = [
+    'a', 'd', 'b', 'c', 'd', 
+    'a', 'a', 'c', 'b', 'd', 
+    'c', 'c', 'b', 'd', 'd'
+]
 
-# listado de justificaciones
+# Listado de justificaciones
 justifications = [
     'Justificación: La palabra clave "def" se usa para definir funciones en Python.',
     'Justificación: Los datos de tipo "tuple" son inmutables, significa que no cambian luego de ser creados.',
     'Justificación: La función "len()" devuelve la cantidad de elementos en una secuencia.',
     'Justificación: El operador "==" se usa para comparar si dos valores son iguales.',
     'Justificación: El operador "//" se usa para devolver la parte entera del cociente.',
-    'Justificación: En Python los cometarios de una línea empiezan con "#".',
+    'Justificación: En Python, los comentarios de una línea empiezan con "#".',
     'Justificación: La estructura "for()" se usa para iterar una secuencia un número dado de veces.',
     'Justificación: El tipo de dato "object" no es primitivo en Python.',
     'Justificación: La función "int()" se usa para convertir valores a entero.',
@@ -50,18 +56,28 @@ justifications = [
     'Justificación: La expresión "type(42)" devuelve <class "int"> porque 42 es un entero.',
     'Justificación: El método "append()" agrega un elemento al final de una lista.',
     'Justificación: Pandas es una biblioteca utilizada para analizar y manipular datos.',
-    'Justificación: La función "import" se usa para modulos o bibliotecas externas en el código de Python.'
+    'Justificación: La función "import" se usa para módulos o bibliotecas externas en el código.'
 ]
 
-# aquí se genera la interfaz del quiz
-print('\nPreguntas básicas sobre Python ¡empecemos!\n')
+# Aquí se genera la interfaz del quiz
+print('\nPreguntas básicas sobre Python. ¡Empecemos!\n')
+
+correctCount = 0
 
 for i in range(quizLength):
-    print(f'Pregunta #{i+1}: {questionList[i]}')
-    answer = ''
-    answer = input('Respuesta: ')
-    print('')
- 
- # verificar si las respuestas son correctas
- # mostrar el progreso en %
- # mostrar la jutificación en caso de respuesta errónea
+    print(f'Pregunta #{i + 1}: {questionList[i]}')
+    
+    answer = input('Respuesta (a/b/c/d): ').lower()
+    
+    if answer == correctAnswers[i]:
+        print('¡Correcto!\n')
+        correctCount += 1
+    else:
+        print(f'Incorrecto. {justifications[i]}\n')
+
+# Calcular y mostrar el progreso
+scorePercentage = (correctCount / quizLength) * 100
+
+print(f'Has respondido correctamente {correctCount} de {quizLength} preguntas.')
+print(f'Tu puntuación es {scorePercentage:.2f}%.')
+print(f'\nGracias por participar, {nameCapitalized}!')
