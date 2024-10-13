@@ -10,9 +10,9 @@ nameCapitalized = userName.capitalize()
 
 quizLength = int(input(f'¡Hola! {nameCapitalized}! ¿Cuántas preguntas responderá?: '))
 
-# Valida que el quiz esté en rango de 5 y 15 preguntas
-while quizLength < 5 or quizLength > 15:
-    quizLength = int(input('¡El quiz debe tener entre 5 y 15 preguntas, reintente!: '))
+# Valida que el quiz esté en rango de 5 y 10 preguntas
+while quizLength < 5 or quizLength > 10:
+    quizLength = int(input('¡El quiz debe tener entre 5 y 10 preguntas, reintente!: '))
 
 # Listado de preguntas para el quiz
 questionList = [
@@ -25,19 +25,13 @@ questionList = [
     '¿Qué estructura se utiliza para repetir un bloque de código un número específico de veces en Python?\n a: for \n b: while \n c: repeat \n d: loop',
     '¿Cuál de los siguientes no es un tipo de dato primitivo en Python?\n a: str \n b: int \n c: object \n d: float',
     '¿Qué función convierte una cadena en un entero en Python?\n a: float() \n b: int() \n c: str() \n d: convert() ',
-    '¿Qué palabra clave se usa para crear una clase en Python?\n a: new \n b: create \n c: function \n d: class',
-    '¿Qué estructura se usa para manejar excepciones en Python?\n a: switch-case \n b: if-else \n c: try-except \n d: catch-finally',
-    '¿Qué devuelve type(42) en Python?\n a: integer \n b: int \n c: <class "int">\n d: number',
-    '¿Qué método se usa para agregar un elemento al final de una lista en Python?\n a: add() \n b: append() \n c: insert() \n d: push()',
-    '¿Cuál de las siguientes es una biblioteca popular para el manejo de datos en Python?\n a: matplotlib \n b: numpy \n c: scikit-learn \n d: pandas',
-    '¿Cuál es la función principal de la declaración import en Python?\n a: Asignar valores a una variable \n b: Crear una nueva variable \n c: Definir una función \n d: Incluir módulos externos en el código'
+    '¿Qué palabra clave se usa para crear una clase en Python?\n a: new \n b: create \n c: function \n d: class'
 ]
 
 # Listado de respuestas correctas
 correctAnswers = [
     'a', 'd', 'b', 'c', 'd', 
-    'a', 'a', 'c', 'b', 'd', 
-    'c', 'c', 'b', 'd', 'd'
+    'a', 'a', 'c', 'b', 'd'
 ]
 
 # Listado de justificaciones
@@ -52,11 +46,6 @@ justifications = [
     'Justificación: El tipo de dato "object" no es primitivo en Python.',
     'Justificación: La función "int()" se usa para convertir valores a entero.',
     'Justificación: La palabra clave "class" se utiliza para definir clases en Python.',
-    'Justificación: La estructura "try-except" se utiliza para manejar errores y excepciones.',
-    'Justificación: La expresión "type(42)" devuelve <class "int"> porque 42 es un entero.',
-    'Justificación: El método "append()" agrega un elemento al final de una lista.',
-    'Justificación: Pandas es una biblioteca utilizada para analizar y manipular datos.',
-    'Justificación: La función "import" se usa para módulos o bibliotecas externas en el código.'
 ]
 
 # Aquí se genera la interfaz del quiz
