@@ -75,7 +75,7 @@ for i in range(quizLength):
     else:
         print(f'Incorrecto. {justifications[i]}\n')
 
-# Calcular y mostrar el progreso
+# Calculamos y mostrar el progreso
 scorePercentage = (correctCount / quizLength) * 100
 
 print(f'Has respondido correctamente {correctCount} de {quizLength} preguntas.')
