@@ -63,21 +63,33 @@ justifications = [
 print('\nPreguntas básicas sobre Python. ¡Empecemos!\n')
 
 correctCount = 0
+userAnswers = []  # Lista para almacenar las respuestas del usuario
 
 for i in range(quizLength):
     print(f'Pregunta #{i + 1}: {questionList[i]}')
-    
-    answer = input('Respuesta (a/b/c/d): ').lower()
-    
+    answer = input('Respuesta: ').lower()
+
+    # Guardamos la respuesta del usuario
+    userAnswers.append(answer)
+
     if answer == correctAnswers[i]:
         print('¡Correcto!\n')
         correctCount += 1
     else:
-        print(f'Incorrecto. {justifications[i]}\n')
+        print(f'¡Incorrecto!\n{justifications[i]}\n')
+    
+    # Calculamos y mostramos el progreso basado en la cantidad de preguntas respondidas
+    progreso = ((i + 1) / quizLength) * 100  # Incremento de progreso basado en las preguntas respondidas
+    print(f'Progreso: {progreso:.2f}% completado.\n')
 
-# Calculamos y mostrar el progreso
-scorePercentage = (correctCount / quizLength) * 100
-
+# Mostramos el resumen final
 print(f'Has respondido correctamente {correctCount} de {quizLength} preguntas.')
-print(f'Tu puntuación es {scorePercentage:.2f}%.')
+scorePercentage = (correctCount / quizLength) * 100
+print(f'Tu puntuación final es {scorePercentage:.2f}%.\n')
+
+# Mostramos las respuestas dadas por el usuario
+print(f'Aquí están tus respuestas, {nameCapitalized}:')
+for i in range(quizLength):
+    print(f'Pregunta #{i + 1}: {userAnswers[i]}')
+
 print(f'\nGracias por participar, {nameCapitalized}!')
